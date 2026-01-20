@@ -1,0 +1,43 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+wheels/
+
+# --------------------
+# Virtual Environment
+# --------------------
+.venv/
+
+# --------------------
+# Django
+# --------------------
+db.sqlite3
+media/
+staticfiles/
+
+# --------------------
+# Environment Variables
+# --------------------
+.env
+.env.*
+
+# --------------------
+# Logs
+# --------------------
+*.log
+
+# --------------------
+# OS / Editor
+# --------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
